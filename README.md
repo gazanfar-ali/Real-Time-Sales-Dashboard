@@ -17,6 +17,8 @@ The goal is to build a web dashboard that:
 
 ## 📂 Project Structure
 ```bash
+📁 dashboard/
+├── app.py # Dash web app
 📁 data/
 ├── sales_data.txt # Sample sales data
 ├── schema.md # Explains data columns
@@ -25,8 +27,6 @@ The goal is to build a web dashboard that:
 ├── process_data.py # Processes data (grouping, totals)
 ├── api.py # Flask backend
 ├── __init__.py # Marks src as a package
-📁 dashboard/
-├── app.py # Dash web app
 📄 requirements.txt # Python dependencies
 📄 README.md # This file
 📄 LICENSE # Project license
